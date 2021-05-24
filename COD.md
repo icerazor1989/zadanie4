@@ -1,4 +1,4 @@
-# zadanie4
+# zadanie 1
 
 #include <iostream>
 
