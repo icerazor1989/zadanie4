@@ -1,29 +1,32 @@
 # zadanie2
+
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
+  int n;
+  int i ;
 
-   int a;
-   int b;
-   int sum=0;
-   cout<<"enter two numbers : " <<endl;
-   cin  >>a >> b ;
+  cout <<"Enter the number: " <<endl;
+  cin >> n ;
 
-   sum=a+b;
-
-if ( 10<=sum && sum<=20  )
+for(i=2; i<=n ; i++)
 {
-    cout<< "true"<< endl;
-}
 
-
-else
+    if (  n % i != 0   )
 {
-    cout<< "false" << endl;
+   cout << n<< " is  simple natural number"<< endl;
+   break;
 }
 
-    return 0;
+   else
+{
+   cout<< n << " is not simple natural number"<<endl;
+   break;
 }
+
+}
+   return 0;
+  }
