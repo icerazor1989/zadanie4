@@ -4,14 +4,14 @@ using namespace std;
 
 int main()
 {
-
+    const int x = 10;
+    const int y = 10;
     int i;
     int j;
 
-    for (i=0;i<=10;i++)
+    for (i=0;i<=x;i++)
     {
-        for (j=10;j>=0;j--)
-
+        for (j=y;j>=0;j--)
             {
                 if(i==j || i+j==10)
             {
@@ -22,8 +22,8 @@ int main()
              cout<<"0"<<" ";
             }
             }
-cout<<endl;
+           cout<<endl;
     }
 
-    return 0;
+            return 0;
 }
